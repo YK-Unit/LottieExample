@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 5849770af4c6d9be7bc727ed56cefb189bb33570
+PODS:
+  - lottie-ios (2.0.3)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+
+DEPENDENCIES:
+  - lottie-ios
+  - MBProgressHUD
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  lottie-ios: 445f77c7f661f95587e49095a1ac7de43f0da896
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+
+PODFILE CHECKSUM: 335a5be3dee00755665b07d4e91d53757c747c56
 
 COCOAPODS: 1.2.1

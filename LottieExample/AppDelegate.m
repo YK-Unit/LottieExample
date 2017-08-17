@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "SplashView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    [self customizeView];
+
+    [self.window makeKeyAndVisible];
+
+    [self addSplashView];
+
     return YES;
 }
 
@@ -47,5 +56,23 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Private Methods
+- (void)customizeView {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = rootNav;
+}
 
+- (void)addSplashView {
+    SplashView *splashView = [[SplashView alloc] initWithFrame:self.window.bounds];
+    __weak SplashView *weakSplashView = splashView;
+    [splashView showOnView:self.window withAnimationCompleter:^{
+        [UIView animateWithDuration:0.5 animations:^{
+            weakSplashView.alpha = 0;
+        } completion:^(BOOL finished) {
+            [weakSplashView removeFromSuperview];
+        }];
+    }];
+}
 @end

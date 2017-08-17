@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SplashView.h
 //  LottieExample
 //
 //  Created by York on 2017/8/12.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SplashView : UIView
 
+- (void)showOnView:(UIView *)containerView withAnimationCompleter:(void(^)())completer;
 
 @end
-

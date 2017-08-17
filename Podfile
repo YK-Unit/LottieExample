@@ -6,5 +6,8 @@ target 'LottieExample' do
   # use_frameworks!
 
   # Pods for LottieExample
-
+  pod 'lottie-ios'
+  pod 'MJRefresh'
+  pod 'MBProgressHUD'
+  
 end

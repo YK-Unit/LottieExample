@@ -16,6 +16,7 @@
 		986221731F45D4800082884E /* AnimTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986221711F45D4800082884E /* AnimTransitionViewController.xib */; };
 		986221761F45D57B0082884E /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 986221741F45D57B0082884E /* vcTransition1.json */; };
 		986221771F45D57B0082884E /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = 986221751F45D57B0082884E /* vcTransition2.json */; };
+		9862218B1F497BEA0082884E /* Play-Pause.json in Resources */ = {isa = PBXBuildFile; fileRef = 9862218A1F497BEA0082884E /* Play-Pause.json */; };
 		987799A61F3F2E4800560FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 987799A51F3F2E4800560FDD /* main.m */; };
 		987799A91F3F2E4800560FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 987799A81F3F2E4800560FDD /* AppDelegate.m */; };
 		987799B11F3F2E4800560FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987799B01F3F2E4800560FDD /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		986221711F45D4800082884E /* AnimTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimTransitionViewController.xib; sourceTree = "<group>"; };
 		986221741F45D57B0082884E /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
 		986221751F45D57B0082884E /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		9862218A1F497BEA0082884E /* Play-Pause.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Play-Pause.json"; sourceTree = "<group>"; };
 		987799A11F3F2E4800560FDD /* LottieExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987799A51F3F2E4800560FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		987799A71F3F2E4800560FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		987799BF1F3F5F8900560FDD /* Lottie-Files */ = {
 			isa = PBXGroup;
 			children = (
+				9862218A1F497BEA0082884E /* Play-Pause.json */,
 				986221741F45D57B0082884E /* vcTransition1.json */,
 				986221751F45D57B0082884E /* vcTransition2.json */,
 				986221671F4349EA0082884E /* EmptyStatus.json */,
@@ -289,6 +292,7 @@
 				986221661F43422A0082884E /* Loading.json in Resources */,
 				987799C11F3F5F8900560FDD /* LottieLogo.json in Resources */,
 				98C178B81F409EEF0005F8D4 /* Edit.json in Resources */,
+				9862218B1F497BEA0082884E /* Play-Pause.json in Resources */,
 				986221681F4349EA0082884E /* EmptyStatus.json in Resources */,
 				986221761F45D57B0082884E /* vcTransition1.json in Resources */,
 				987799B11F3F2E4800560FDD /* Assets.xcassets in Resources */,

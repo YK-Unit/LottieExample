@@ -87,6 +87,8 @@
 
 - (void)editButtonClicked {
     if (self.isEditing) {
+        //Lottie总是从上一次位置开始播放动画，
+        //上一次位置停留的帧可能不是startFrmae，在播放前，需要设置其停留到startFrmae
         [self.editButton setProgressWithFrame:@(166)];
         [self.editButton playFromFrame:@(166) toFrame:@(218) withCompletion:nil];
 

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8D538B1C99650B37F9530FE9 /* libPods-LottieExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DF736957F87D311DF7BBBF /* libPods-LottieExample.a */; };
+		9853E4F71F5EF07200940FB2 /* RectComp.json in Resources */ = {isa = PBXBuildFile; fileRef = 9853E4F61F5EF07200940FB2 /* RectComp.json */; };
+		98545CA51F638CEE00599935 /* ViewInToLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98545CA31F638CEE00599935 /* ViewInToLayerViewController.m */; };
+		98545CA61F638CEE00599935 /* ViewInToLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98545CA41F638CEE00599935 /* ViewInToLayerViewController.xib */; };
 		986221641F433B0F0082884E /* LoadingAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986221631F433B0E0082884E /* LoadingAnimViewController.m */; };
 		986221661F43422A0082884E /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 986221651F43422A0082884E /* Loading.json */; };
 		986221681F4349EA0082884E /* EmptyStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = 986221671F4349EA0082884E /* EmptyStatus.json */; };
@@ -39,6 +42,10 @@
 		128D227D6562E40C12AF9210 /* Pods-LottieExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieExample/Pods-LottieExample.release.xcconfig"; sourceTree = "<group>"; };
 		14DF736957F87D311DF7BBBF /* libPods-LottieExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LottieExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399E6E1F6EC65BBCC6A6FDE5 /* Pods-LottieExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieExample/Pods-LottieExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9853E4F61F5EF07200940FB2 /* RectComp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RectComp.json; sourceTree = "<group>"; };
+		98545CA21F638CEE00599935 /* ViewInToLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewInToLayerViewController.h; sourceTree = "<group>"; };
+		98545CA31F638CEE00599935 /* ViewInToLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewInToLayerViewController.m; sourceTree = "<group>"; };
+		98545CA41F638CEE00599935 /* ViewInToLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewInToLayerViewController.xib; sourceTree = "<group>"; };
 		986221621F433B0E0082884E /* LoadingAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingAnimViewController.h; sourceTree = "<group>"; };
 		986221631F433B0E0082884E /* LoadingAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingAnimViewController.m; sourceTree = "<group>"; };
 		986221651F43422A0082884E /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
@@ -97,6 +104,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		98545CA11F638C7300599935 /* Add View To Layer */ = {
+			isa = PBXGroup;
+			children = (
+				98545CA21F638CEE00599935 /* ViewInToLayerViewController.h */,
+				98545CA31F638CEE00599935 /* ViewInToLayerViewController.m */,
+				98545CA41F638CEE00599935 /* ViewInToLayerViewController.xib */,
+			);
+			name = "Add View To Layer";
+			sourceTree = "<group>";
+		};
 		9862217B1F45DD7E0082884E /* VC Transition Anim */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +166,7 @@
 		987799A31F3F2E4800560FDD /* LottieExample */ = {
 			isa = PBXGroup;
 			children = (
+				98545CA11F638C7300599935 /* Add View To Layer */,
 				987799BE1F3F5CBD00560FDD /* Splash Anim */,
 				98C178A11F3F6B490005F8D4 /* Pull Reresh Anim */,
 				9862217C1F45E5EF0082884E /* Button+Gift Anim */,
@@ -187,6 +205,7 @@
 		987799BF1F3F5F8900560FDD /* Lottie-Files */ = {
 			isa = PBXGroup;
 			children = (
+				9853E4F61F5EF07200940FB2 /* RectComp.json */,
 				9862218A1F497BEA0082884E /* Play-Pause.json */,
 				986221741F45D57B0082884E /* vcTransition1.json */,
 				986221751F45D57B0082884E /* vcTransition2.json */,
@@ -292,8 +311,10 @@
 				986221661F43422A0082884E /* Loading.json in Resources */,
 				987799C11F3F5F8900560FDD /* LottieLogo.json in Resources */,
 				98C178B81F409EEF0005F8D4 /* Edit.json in Resources */,
+				9853E4F71F5EF07200940FB2 /* RectComp.json in Resources */,
 				9862218B1F497BEA0082884E /* Play-Pause.json in Resources */,
 				986221681F4349EA0082884E /* EmptyStatus.json in Resources */,
+				98545CA61F638CEE00599935 /* ViewInToLayerViewController.xib in Resources */,
 				986221761F45D57B0082884E /* vcTransition1.json in Resources */,
 				987799B11F3F2E4800560FDD /* Assets.xcassets in Resources */,
 				98C178B21F3F71560005F8D4 /* Switch.json in Resources */,
@@ -363,6 +384,7 @@
 				987799C51F3F630E00560FDD /* MainViewController.m in Sources */,
 				986221721F45D4800082884E /* AnimTransitionViewController.m in Sources */,
 				987799A61F3F2E4800560FDD /* main.m in Sources */,
+				98545CA51F638CEE00599935 /* ViewInToLayerViewController.m in Sources */,
 				98C178AF1F3F702D0005F8D4 /* ButtonAnimViewController.m in Sources */,
 				98C178A71F3F6D280005F8D4 /* AnimRefreshFooter.m in Sources */,
 				986221641F433B0F0082884E /* LoadingAnimViewController.m in Sources */,

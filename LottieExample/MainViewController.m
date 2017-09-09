@@ -13,6 +13,7 @@
 #import "ButtonAnimViewController.h"
 #import "LoadingAnimViewController.h"
 #import "AnimTransitionViewController.h"
+#import "ViewInToLayerViewController.h"
 
 @interface MainViewController ()
 <UITableViewDelegate,UITableViewDataSource>
@@ -30,7 +31,7 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"Lottie Example";
 
-    self.items = @[@"按钮动画示例+礼物动画示例",@"加载动画示例+提示动画示例",@"转场动画示例"];
+    self.items = @[@"按钮动画示例+礼物动画示例",@"加载动画示例+提示动画示例",@"转场动画示例",@"添加View到Layer示例"];
 
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
@@ -123,6 +124,13 @@
                 AnimTransitionViewController *vc = [[AnimTransitionViewController alloc] init];
                 [self presentViewController:vc animated:YES completion:nil];
             });
+        }
+            break;
+        case 3:
+        {
+            ViewInToLayerViewController *vc = [[ViewInToLayerViewController alloc] init];
+            vc.title = title;
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:

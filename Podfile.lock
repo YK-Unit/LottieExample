@@ -1,18 +1,18 @@
 PODS:
-  - lottie-ios (2.0.3)
+  - lottie-ios (2.1.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
 
 DEPENDENCIES:
-  - lottie-ios
+  - lottie-ios (~> 2.1.0)
   - MBProgressHUD
   - MJRefresh
 
 SPEC CHECKSUMS:
-  lottie-ios: 445f77c7f661f95587e49095a1ac7de43f0da896
+  lottie-ios: af87be9f802a949a9bfdc0dcd304973c5245fa26
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-PODFILE CHECKSUM: 335a5be3dee00755665b07d4e91d53757c747c56
+PODFILE CHECKSUM: 7a64ab166ee1652ad012ffa85fe3d7cc796f3ea5
 
 COCOAPODS: 1.2.1

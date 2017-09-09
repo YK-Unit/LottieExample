@@ -1,6 +1,9 @@
 Lottie Example 
 ============
 
+关于 Lottie 的介绍和使用，请看[《Airbnb 开源动画库 Lottie 介绍以及详细示例》](http://www.jianshu.com/p/01f6bb509d54)
+
+
 以下是lottie-iOS的应用示例：
 
 - 启动(splash)动画
@@ -23,3 +26,6 @@ Lottie Example
 
 	![转场动画.gif](Example-Gifs/转场动画.gif)
 
+- 添加视图到Layer层
+
+	![添加视图到Layer层.gif](Example-Gifs/添加视图到Layer层.gif)
